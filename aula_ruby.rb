@@ -250,11 +250,20 @@
 # a.max   # Retorna o elemento maximo
 # a.sort  # Ordena
 # a.sort! # A "!" diz pro Ruby para sobescrever a variavel "a" com o resultado obtido
-# 
+
+## -- Array list comprehension
+
+# class Array
+#   def comprehend(&block)
+#     return self if block.nil?
+#     self.collect(&block).compact
+#   end
+# end
 #
-#
-#
-#
+# some_array = [1, 2, 3, 4, 5, 6]
+# new_array = some_array.comprehend {|x| x * 3 if x % 2 == 0}
+# puts new_array
+
 
 ## -- Hashs
 
