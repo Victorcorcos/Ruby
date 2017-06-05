@@ -2,9 +2,10 @@
 
 ## Escrita
 
-# puts "Hello World"     # Rola enter no final
+# puts "Hello World"     # Rola enter no final. Serve só para Strings.
 # print "Hello World"    # Não rola enter no final 
 # printf("Hello World")  # Não rola enter no final
+# 5.times { print "Hello World" }
 
 ## Leitura
 
@@ -198,9 +199,14 @@
 # my_string = "This is a new test from string class"
 #
 # puts my_string
-# puts my_string.length
-# puts my_string.reverse
-# puts my_string.reverse
+#
+
+# -- Strings methods
+# my_string.length
+# my_string.reverse
+# my_string.reverse
+# 
+# 
 
 
 
@@ -237,16 +243,31 @@
 #  teachers.clear
 #  teachers.concat(teachers2)
 
-
+## -- Arrays commands
+# 
+# a = [12, 47, 35]
+# 
+# a.max   # Retorna o elemento maximo
+# a.sort  # Ordena
+# a.sort! # A "!" diz pro Ruby para sobescrever a variavel "a" com o resultado obtido
+# 
+#
+#
+#
+#
 
 ## -- Hashs
 
-# people = Hash["Leonan" => 10, "Luiz" => 20, "Wesley" => 30, "Erik" => 40]
-#
-# puts people
-# puts "#{people["Leonan"]}"
-# puts "#{people["Luiz"]}"
+people = Hash["Leonan" => 10, "Luiz" => 20, "Wesley" => 30, "Erik" => 40]
 
+people["Victor"] = 50
+
+puts people.keys
+
+puts "#{people["Leonan"]}"
+puts people["Victor"]
+
+# books.values.each { |rate| ratings[rate] += 1 }  ## Transforma os values do "books" em keys de "ratings". Os values de "ratings" serão 1.
 
 
 
