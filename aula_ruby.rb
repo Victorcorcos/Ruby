@@ -267,15 +267,15 @@
 
 ## -- Hashs
 
-people = Hash["Leonan" => 10, "Luiz" => 20, "Wesley" => 30, "Erik" => 40]
-
-people["Victor"] = 50
-
-puts people.keys
-
-puts "#{people["Leonan"]}"
-puts people["Victor"]
-
+# people = Hash["Leonan" => 10, "Luiz" => 20, "Wesley" => 30, "Erik" => 40]
+#
+# people["Victor"] = 50
+#
+# puts people.keys
+#
+# puts "#{people["Leonan"]}"
+# puts people["Victor"]
+#
 # books.values.each { |rate| ratings[rate] += 1 }  ## Transforma os values do "books" em keys de "ratings". Os values de "ratings" serão 1.
 
 
